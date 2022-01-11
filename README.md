@@ -20,38 +20,6 @@ The [```Complete Blood Count (CBC) Dataset```](https://github.com/MahmudulAlam/C
 [![Download](https://img.shields.io/badge/download-weights-blue.svg?longCache=true&style=flat&logo=microsoft-onedrive)](https://1drv.ms/u/s!AlXVRhh1rUKThlxTievX0X1CpXd0?e=9cKxYb)
 [![Download](https://img.shields.io/badge/download-weights-ff160a.svg?longCache=true&style=flat&logo=mega)](https://mega.nz/#F!2kVUnKjS!z15tM9WLfga3l1gCNSLNGw)
 
-## Update
-[![Paper](https://img.shields.io/badge/TensorFlow-2.x-f57418.svg?longCache=true&style=flat&logo=tensorflow)](https://www.tensorflow.org/install)
-
-The code was originally written and developed with `TensorFlow v1.x`. The new updated version `v2.0` included `TensorFlow v2.x` support, tested on both TensorFlow `v2.1.0` and `v2.2.0`. You can download the previous version from **[`here`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/releases/tag/v1.0)**.
-
-## How to Run the Code  :runner:
-To detect the blood cells, simply run the `detect.py` file in the terminal or using an IDE. A step-by-step guideline of how to run the blood cell detection code in your computer is provided in this **[`wiki`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/A-Step-by-Step-Guide-of-How-to-Run-the-Code)**.
-If you have any trouble running the code and facing any error please feel free to create an **[`issue`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/issues)** or **[`contact me`](https://mahmudulalam.github.io/#contact)**. 
-
-## How to Train on Your Dataset  :bullettrain_side:
-A seven-step guideline of how to train on your own dataset is provided in this **[`wiki`](https://github.com/MahmudulAlam/Automatic-Identification-and-Counting-of-Blood-Cells/wiki/How-to-Train-on-Your-Dataset)**.
-
-## Paper
-[![Paper](https://img.shields.io/badge/paper-IETDigiLib-830ceb.svg?longCache=true&style=flat)](http://ietdl.org/t/kmgztb) [![Paper](https://img.shields.io/badge/paper-Wiley-282829.svg?longCache=true&style=flat)](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098)
-
-The code was developed for the following blood cell detection paper. For a more detailed explanation of the proposed method, please go through the pdf of the [```paper```][1]. If you use this code or associated dataset, please cite this paper as:
-
-[***```Machine learning approach of automatic identification and counting of blood cells```***](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098)
-
-```
-@article{alam2019machine,
-  title={Machine learning approach of automatic identification and counting of blood cells},
-  author={Alam, Mohammad Mahmudul and Islam, Mohammad Tariqul},
-  journal={Healthcare Technology Letters},
-  volume={6},
-  number={4},
-  pages={103--108},
-  year={2019},
-  publisher={IET}
-}
-```
-
 ## Blood Cell Detection Output
 <p align="center">
   <img src="https://user-images.githubusercontent.com/37298971/44617785-17eb0980-a88b-11e8-9018-c84f8be5cefa.png" width="500">
@@ -77,4 +45,3 @@ We have used our model to detect and count blood cells from high-resolution bloo
   <img src="https://user-images.githubusercontent.com/37298971/45961699-055a2080-c041-11e8-95b0-1c8ac3c8875b.jpg" width="700">
 </p>
 
-[1]: https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl.2018.5098
